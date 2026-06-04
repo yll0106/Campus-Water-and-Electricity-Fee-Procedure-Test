@@ -1,5 +1,5 @@
-﻿systemutil.Run "C:\Users\yll24\Desktop\结课大作业\2023592003 杨龙龙 软件测试大作业\测试程序.exe"
-datatable.ImportSheet "C:\Users\yll24\Desktop\结课大作业\2023592003 杨龙龙 软件测试大作业\测试数据.xlsx",1,"Action1" @@ hightlight id_;_70660_;_script infofile_;_ZIP::ssf24.xml_;_
+﻿systemutil.Run "C:\Users\yll24\Desktop\测试程序.exe"
+datatable.ImportSheet "C:\Users\yll24\Desktop\测试数据.xlsx",1,"Action1" @@ hightlight id_;_70660_;_script infofile_;_ZIP::ssf24.xml_;_
 wait(1)
 Dim Dormitory,electricity,water,expected,actual
 For Iterator = 1 To 12 Step 1
